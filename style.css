@@ -4,11 +4,37 @@ padding: 0;
 box-sizing: border-box;
 }
 
-.photos {
+body {
+  background-color: antiquewhite;
 }
 
 img {
   margin: 5px;
-  float: left;
+  float: none;
   width: 450px;
+  border: 9px solid white;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: peachpuff;
+  text-align: center;
+}
+
+p {
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  text-shadow: 2px 2px mistyrose;
+}
+
+p1 {
+  font-family: monospace;
+  text-align: center;
+  font-size: 25px;
 }
